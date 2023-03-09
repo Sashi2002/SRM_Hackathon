@@ -2,6 +2,7 @@ import { AiOutlineCaretDown } from "react-icons/ai";
 import Image from "next/image";
 import srm from "../public/images/srm.png";
 import { MdLanguage } from "react-icons/Md";
+import Link from "next/link";
 // import thumbnail from "../public/images/thumbnail.svg";
 const Navbar = () => {
   return (
@@ -19,7 +20,10 @@ const Navbar = () => {
               <AiOutlineCaretDown />
             </ul>
             <ul className="pl-5 mt-2">Facilities</ul>
-            <ul className="pl-5 mt-2">Hall Booking</ul>
+            <Link href="/hallbooking">
+              <ul className="pl-5 mt-2">Hall Booking</ul>
+            </Link>
+
             <ul className="pl-5 mt-2">User Manual</ul>
           </span>
         </div>
@@ -30,10 +34,14 @@ const Navbar = () => {
             </ul>
             <ul className="pl-1">EN</ul>
             <ul className="pl-5">Contact Us</ul>
-            <ul className="pl-5">Login</ul>
-            <ul className="px-4 py-1 ml-5 bg-[#ffffff] rounded-2xl text-black mr-10">
-              Sign Up
-            </ul>
+            <Link href="/login">
+              <ul className="pl-5">Login</ul>
+            </Link>
+            <Link href="/signup">
+              <ul className="px-4 py-1 ml-5 bg-[#ffffff] rounded-2xl text-black mr-10">
+                Sign Up
+              </ul>
+            </Link>
           </span>
         </div>
       </div>
