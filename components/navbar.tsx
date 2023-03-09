@@ -31,7 +31,7 @@ const Navbar = () => {
             <ul className="pl-1">EN</ul>
             <ul className="pl-5">Contact Us</ul>
             <ul className="pl-5">Login</ul>
-            <ul className="px-4 py-1 ml-5 bg-[#ffffff] rounded-2xl text-black mr-16">
+            <ul className="px-4 py-1 ml-5 bg-[#ffffff] rounded-2xl text-black mr-10">
               Sign Up
             </ul>
           </span>
