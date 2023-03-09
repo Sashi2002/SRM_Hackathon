@@ -37,6 +37,7 @@ const Navbar = () => {
           </ol>
           <span className="flex items-center gap-1 max-sm:hidden">
             <ol>Harsh</ol>
+
             <ol className="relative">
               <AiOutlineCaretDown />
               <div className=" bg-[#252e39] absolute right-[-14px] w-96 h-72 gap-8 mt-4 max-md:w-screen hidden ">

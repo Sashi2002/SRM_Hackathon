@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "components/navbar";
 import Footer from "components/footer";
+import tp from "../../public/images/Rectangle24.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <div className="text-3xl">hdv</div>
+        <div className="text-3xl">harsh</div>
         <Footer />
       </main>
     </>
