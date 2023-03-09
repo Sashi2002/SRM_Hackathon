@@ -20,6 +20,7 @@ export default function Home() {
       <main>
         <Navbar />
         <div className="text-3xl">harsh</div>
+
         <Footer />
       </main>
     </>
