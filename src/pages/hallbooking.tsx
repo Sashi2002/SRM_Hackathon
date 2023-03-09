@@ -109,7 +109,6 @@ const Booking = () => {
           <div className="group inline-block relative transition ease-in-out delay-10  hover:-translate-y-3 hover:scale-110 duration-500 ">
             <div className="h-60 w-60">
               <Image src={venkat} className="h-full w-full"></Image>
-
             </div>
 
             <div className="absolute hidden text-white text-sm group-hover:block px-14 mt-2 font-semibold">
