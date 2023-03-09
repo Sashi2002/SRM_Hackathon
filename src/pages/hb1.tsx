@@ -1,11 +1,10 @@
 import Footer from "components/footer";
 import Navbar from "components/navbar";
 import Image from "next/image";
-import tp from "../../public/images/Rectangle24.png";
+import ganesh from "../../public/images/Auditorium.jpg";
 const hb1 = () => {
   return (
     <main>
-      
       <div className="grid w-full h-screen grid-cols-1 mb-8 sm:grid-cols-2">
         <div className="flex flex-col justify-center bg-gray-800">
           <form className="max-w-[400px] w-full mx-auto rounded-lg bg-gray-900 p-4  px-8">
@@ -42,7 +41,6 @@ const hb1 = () => {
                 />
               </div>
             </div>
-
             <div className="flex gap-8">
               <div className="flex flex-col w-1/2 py-2 text-gray-400">
                 <label>Time</label>
@@ -78,10 +76,9 @@ const hb1 = () => {
           </form>
         </div>
         <div className="hidden sm:block">
-          <Image className="object-cover w-full h-full" src={tp} alt="" />
+          <Image className="object-cover w-full h-full" src={ganesh} alt="" />
         </div>
       </div>
-
       
     </main>
   );
