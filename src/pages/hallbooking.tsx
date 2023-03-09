@@ -18,7 +18,7 @@ const Booking = () => {
         <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731] rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110">
             <div className="h-60 w-60">
-              <Image src={ganesh} className="w-full h-full"></Image>
+              <Image src={ganesh} className="w-full h-full" alt="T.P. Ganeshan"></Image>
             </div>
 
             <div className="absolute hidden mt-4 font-semibold text-white text-m group-hover:block px-14">
@@ -33,7 +33,7 @@ const Booking = () => {
         <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731]  rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110 ">
             <div className="h-60 w-60">
-              <Image src={bose} className="w-full h-full"></Image>
+              <Image src={bose} className="w-full h-full" alt="J. C. Bose Hall"></Image>
             </div>
 
             <div className="absolute hidden mt-4 font-semibold text-white text-m group-hover:block px-14">
@@ -48,7 +48,7 @@ const Booking = () => {
         <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731]  rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110 ">
             <div className="h-60 w-60">
-              <Image src={hippo} className="w-full h-full"></Image>
+              <Image src={hippo} className="w-full h-full" alt="Hippocrates Hall"></Image>
             </div>
 
             <div className="absolute hidden mt-4 font-semibold text-white text-m group-hover:block px-14">
@@ -63,7 +63,7 @@ const Booking = () => {
         <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731] rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110 ">
             <div className="h-60 w-60">
-              <Image src={radha} className="w-full h-full"></Image>
+              <Image src={radha} className="w-full h-full" alt="Dr.S.Radhakrishnan Hall"></Image>
             </div>
 
             <div className="absolute hidden mt-2 font-semibold text-white text-m group-hover:block px-14">
@@ -79,7 +79,7 @@ const Booking = () => {
         <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731]  rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110 ">
             <div className="h-60 w-60">
-              <Image src={rama} className="w-full h-full"></Image>
+              <Image src={rama} className="w-full h-full" alt="Ramanujan Hall"></Image>
             </div>
 
             <div className="absolute hidden mt-4 font-semibold text-white text-m group-hover:block px-14">
@@ -109,7 +109,7 @@ const Booking = () => {
         <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731]  rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110 ">
             <div className="h-60 w-60">
-              <Image src={turing} className="w-full h-full"></Image>
+              <Image src={turing} className="w-full h-full" alt="Turing Hall"></Image>
             </div>
 
             <div className="absolute hidden mt-4 font-semibold text-white text-m group-hover:block px-14">
@@ -124,7 +124,7 @@ const Booking = () => {
         <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731]  rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110 ">
             <div className="h-60 w-60">
-              <Image src={venkat} className="w-full h-full"></Image>
+              <Image src={venkat} className="w-full h-full" alt="Dr. Venkatraman Ramakrishnan Hall"></Image>
 
             </div>
 
