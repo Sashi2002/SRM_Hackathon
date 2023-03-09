@@ -26,7 +26,7 @@ function Footer() {
           </a>
         </div>
         <div className="flex flex-col justify-center gap-10 items-center mt-12 w-full text-[#04aa6d]">
-          <div className="flex gap-10 items-center">
+          <div className="flex gap-6 items-center">
             <span className="text-white">Login</span>
             <RxDotFilled />
             <span className="text-white">Facilities</span>
