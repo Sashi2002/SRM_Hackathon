@@ -35,7 +35,7 @@ function Footer() {
             <RxDotFilled />
             <span className="text-white">User Manual</span>
           </div>
-          <hr className="text-white/25 w-1/2 " />
+          <hr className="text-white/25 w-1/2" />
         </div>
       </div>
       <div className="mt-10 text-center ">
