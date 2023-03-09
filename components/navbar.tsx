@@ -34,15 +34,7 @@ const Navbar = () => {
             </ul>
             <ul className="pl-1">EN</ul>
             <ul className="pl-5">Contact Us</ul>
-<<<<<<< HEAD
-            <ul className="pl-5">Login</ul>
 
-            <button>
-              <ul className="px-4 py-1 ml-5 bg-[#ffffff] rounded-2xl text-black mr-10">
-                Sign Up
-              </ul>
-            </button>
-=======
             <Link href="/login">
               <ul className="pl-5">Login</ul>
             </Link>
@@ -51,7 +43,6 @@ const Navbar = () => {
                 Sign Up
               </ul>
             </Link>
->>>>>>> 0b09ca6ebd46b0361d1c8895b45ab0882e3a6847
           </span>
         </div>
       </div>
