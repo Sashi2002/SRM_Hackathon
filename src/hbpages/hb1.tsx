@@ -8,7 +8,7 @@ const hb1 = () => {
       <Navbar />
       <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full mb-8">
         <div className="bg-gray-800 flex flex-col  justify-center">
-          <form className="max-w-[400px] w-full mx-auto rounded-lg bg-gray-900 p-4   px-8">
+          <form className="max-w-[400px] w-full mx-auto rounded-lg bg-gray-900 p-4  px-8">
             <h2 className="text-4xl dark:text-white font-bold text-center text-white">
               Details
             </h2>
