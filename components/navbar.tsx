@@ -15,6 +15,9 @@ const Navbar = () => {
           <span className="flex gap-2 max-lg:hidden">
             <Image src={srm} alt="image" width="40" />
             <ul className="pl-1 text-3xl font-boldn">SRM</ul>
+            <Link href="/about">
+              <ul className="pl-6 mt-2">About</ul>
+            </Link>
             <ul className="pl-6 mt-2">Events</ul>
             <ul className="flex items-center mt-1">
               <AiOutlineCaretDown />
