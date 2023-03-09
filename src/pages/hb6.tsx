@@ -1,11 +1,8 @@
-import Footer from "components/footer";
-import Navbar from "components/navbar";
 import Image from "next/image";
 import tp from "../../public/images/Rectangle24.png";
 const hb6 = () => {
   return (
     <main>
-      <Navbar />
       <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full mb-8">
         <div className="bg-gray-800 flex flex-col  justify-center">
           <form className="max-w-[400px] w-full mx-auto rounded-lg bg-gray-900 p-4   px-8">
@@ -81,8 +78,6 @@ const hb6 = () => {
           <Image className="w-full h-full object-cover" src={tp} alt="" />
         </div>
       </div>
-
-      <Footer />
     </main>
   );
 };
