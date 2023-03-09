@@ -82,7 +82,7 @@ const Booking = () => {
         <div className="w-64 h-64 flex items-center hover:items-start hover:pt-10 justify-center hover:h-96 hover:w-72 bg-indigo-500 duration-500 rounded-lg">
           <div className="group inline-block relative transition ease-in-out delay-10  hover:-translate-y-3 hover:scale-110 duration-500 ">
             <div className="h-60 w-60">
-              <Image src={tp} className="h-full w-full"></Image>
+              <Image src={tp} alt="image" className="h-full w-full"></Image>
             </div>
 
             <div className="absolute hidden text-white text-m group-hover:block px-14 mt-4 font-semibold">
@@ -109,6 +109,7 @@ const Booking = () => {
           <div className="group inline-block relative transition ease-in-out delay-10  hover:-translate-y-3 hover:scale-110 duration-500 ">
             <div className="h-60 w-60">
               <Image src={venkat} className="h-full w-full"></Image>
+
             </div>
 
             <div className="absolute hidden text-white text-sm group-hover:block px-14 mt-2 font-semibold">
