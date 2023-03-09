@@ -6,18 +6,8 @@ import { RxDotFilled } from "react-icons/rx";
 
 function Footer() {
   return (
-    <footer className="bg-[#232323] w-full h-80">
-      <div>
-        <div className="flex justify-center items-center text-2xl pt-6">
-          <div className="text-white">
-            <b>
-              <span className="text-[#04aa6d]"> </span> our Newsletter
-            </b>
-          </div>
-          <div className="bg-[#04aa6d] rounded-xl border-solid text-lg p-2 text-black ml-4">
-            <button> </button>
-          </div>
-        </div>
+    <footer className=" bg-[#0f171e] w-full h-80">
+      <div className="p-2">
         <div className="flex justify-center items-center mt-12 text-[#04aa6d] gap-12">
           <a href="#facebook" className="text-white">
             <FaFacebook />
