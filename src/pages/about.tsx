@@ -20,16 +20,15 @@ const about = () => {
               SRMIST are equipped with modern facilities and amenities including
               air-conditioning, audio-visual equipment, and seating
               arrangements. To book a hall at SRMIST, interested parties can
-              visit the university's website and fill out the online booking
-              form. The form requires details such as the name of the
-              organization, the purpose of the event, the preferred hall, the
-              date and time of the event, and the number of attendees. Once the
-              form is submitted, the concerned authorities at SRMIST will review
-              the request and respond to the booking inquiry. Overall, SRMIST's
-              hall booking facilities provide a convenient option for hosting
-              events on its campus. With modern amenities and a supportive
-              staff, SRMIST is an ideal venue for hosting a wide range of
-              events.
+              visit the university website and fill out the online booking form.
+              The form requires details such as the name of the organization,
+              the purpose of the event, the preferred hall, the date and time of
+              the event, and the number of attendees. Once the form is
+              submitted, the concerned authorities at SRMIST will review the
+              request and respond to the booking inquiry. Overall, SRMIST hall
+              booking facilities provide a convenient option for hosting events
+              on its campus. With modern amenities and a supportive staff,
+              SRMIST is an ideal venue for hosting a wide range of events.
             </div>
             <div className="flex flex-cols font-medium text-lg text-white">
               <button className="px-8 py-1 mt-12 ml-20 bg-black rounded-2xl text-white mr-10">
