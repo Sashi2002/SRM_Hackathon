@@ -22,7 +22,8 @@ const Navbar = () => {
             <ul className="flex items-center mt-1">
               <AiOutlineCaretDown />
             </ul>
-            <ul className="pl-5 mt-2">Facilities</ul>
+            <Link href="/facilities"><ul className="pl-5 mt-2">Facilities</ul></Link>
+            
             <Link href="/hallbooking">
               <ul className="pl-5 mt-2">Hall Booking</ul>
             </Link>
