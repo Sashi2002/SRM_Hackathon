@@ -9,9 +9,9 @@ import venkat from "../../public/images/Venkataraman.jpg";
 import ganesh from "../../public/images/Auditorium.jpg";
 import Link from "next/link";
 const Booking = () => {
-  return (
-    <main className="text-[#0f171e] bg-[url('/images/Background.png')]">
-      {/* <Navbar /> */}
+  return <>Test</>;
+  {
+    /* <main className="text-[#0f171e] bg-[url('/images/Background.png')]">
       <div className="py-10 text-4xl font-bold text-center">Hall Booking</div>
       <div className="flex items-center justify-center mb-16 gap-28 ">
         <Link href="/hb1">
@@ -96,6 +96,9 @@ const Booking = () => {
             <div className="h-60 w-60">
               <Image src={tp} alt="image" className="h-full w-full" />
             </div>
+            </div>
+            </div>
+            </div>
       <div className="flex items-center justify-center mb-16 gap-28 ">
         <Link href="/hb5">
           <div className="flex items-center justify-center w-64 h-64 duration-500 bg-[#07C731]  rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72">
@@ -131,7 +134,6 @@ const Booking = () => {
           </div>
         </Link>
 
-
         <div className="w-64 h-64 flex items-center hover:items-start hover:pt-10 justify-center hover:h-96 hover:w-72 bg-indigo-500">
           <div className="group inline-block relative transition ease-in-out delay-10  hover:-translate-y-3 hover:scale-110 duration-300 ">
             <div className="h-60 w-60">
@@ -149,7 +151,6 @@ const Booking = () => {
                 ></Image>
               </div>
 
-
               <div className="absolute hidden mt-4 font-semibold text-white text-m group-hover:block px-14">
                 <span className="px-4">Turing Hall</span>
                 <p className="mx-2 mt-2">Capacity: 120</p>
@@ -157,7 +158,6 @@ const Booking = () => {
             </div>
           </div>
         </Link>
-
 
         <div className="w-64 h-64 flex items-center hover:items-start hover:pt-10 justify-center hover:h-96 hover:w-72 bg-indigo-500">
           <div className="group inline-block relative transition ease-in-out delay-10  hover:-translate-y-3 hover:scale-110 duration-300 ">
@@ -176,7 +176,6 @@ const Booking = () => {
                 ></Image>
               </div>
 
-
               <div className="absolute hidden mt-2 text-sm font-semibold text-white group-hover:block px-14">
                 <span className="">Dr. Venkatraman Ramakrishnan Hall</span>
                 <p className="mx-2 mt-2 mb-4">Capacity: 60</p>
@@ -185,9 +184,8 @@ const Booking = () => {
           </div>
         </Link>
       </div>
-
-      {/* <Footer /> */}
     </main>
-  );
+  ); */
+  }
 };
 export default Booking;
