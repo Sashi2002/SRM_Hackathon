@@ -23,7 +23,6 @@ const Navbar = () => {
               <AiOutlineCaretDown />
             </ul>
             <Link href="/facilities"><ul className="pl-5 mt-2">Facilities</ul></Link>
-            
             <Link href="/hallbooking">
               <ul className="pl-5 mt-2">Hall Booking</ul>
             </Link>
