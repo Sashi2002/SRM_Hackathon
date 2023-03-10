@@ -1,14 +1,11 @@
-import Footer from "components/footer";
-import Navbar from "components/navbar";
 import Image from "next/image";
-import tp from "../../public/images/Rectangle24.png";
-const hb1 = () => {
+import tp from "../../public/images/Turing.jpeg";
+const hb7 = () => {
   return (
     <main>
-      <Navbar />
       <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full mb-8">
         <div className="bg-gray-800 flex flex-col  justify-center">
-          <form className="max-w-[400px] w-full mx-auto rounded-lg bg-gray-900 p-4  px-8">
+          <form className="max-w-[400px] w-full mx-auto rounded-lg bg-gray-900 p-4   px-8">
             <h2 className="text-4xl dark:text-white font-bold text-center text-white">
               Details
             </h2>
@@ -81,9 +78,7 @@ const hb1 = () => {
           <Image className="w-full h-full object-cover" src={tp} alt="" />
         </div>
       </div>
-
-      <Footer />
     </main>
   );
 };
-export default hb1;
+export default hb7;
